@@ -51,5 +51,9 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     secril_config_svc
 
+# Opt in to the narrowly scoped idle primary route restore, as on the SM-T820 Wi-Fi product.
+PRODUCT_SYSTEM_PROPERTIES += \
+    audio.legacy_restore_idle_primary=true
+
 # Inherit from gts3l-common
 $(call inherit-product, device/samsung/gts3l-common/gts3l.mk)

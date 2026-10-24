@@ -17,4 +17,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_gts3llte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_gts3llte-userdebug
+    lineage_gts3llte-bp4a-userdebug
